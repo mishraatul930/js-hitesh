@@ -14,3 +14,12 @@ console.log(newData);
 newData = "Karan";
 console.log(newData);
 
+
+//Object
+
+let userDetails = {
+    name : "Atul",
+    email : "mishraatul930@gmail.com",
+}
+
+console.table(userDetails);
