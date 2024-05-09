@@ -15,3 +15,10 @@ console.log(typeof newArray);
 
 //Slice does not manipulate the array
 //Splice does manipulate the original array
+
+
+//Spread Operator is used to combine two arrays.
+const array = ["Atul","Ranjit","Kunal"];
+const new_array = ["Pratiksha","Mayuri"];
+const a_new_array = [...array,...new_array];
+console.log(a_new_array); //O/p - ["Atul","Ranjit","Kunal","Pratiksha","Mayuri"]
