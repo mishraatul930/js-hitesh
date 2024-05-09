@@ -45,3 +45,4 @@ console.log(obj4);
 console.log(Object.keys(obj1));
 console.log(Object.values(obj2));
 console.log(Object.entries(obj1)); //returns an array containing all the keys and values
+console.log(obj1.hasOwnProperty('isLogged')); //returns false as the object does not contain the keys
