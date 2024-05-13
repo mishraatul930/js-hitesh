@@ -1,7 +1,9 @@
+//Global Scope
 // let a = 10;
 // const b = 20;
 var c = 30;
 
+//Block Scope
 if(true){
     let a = 40;
     const b = 50;
