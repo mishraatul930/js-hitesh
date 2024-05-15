@@ -34,7 +34,7 @@ Two(); //undefined
 const addNumber = (num1, num2) => (num1 + num2);
 console.log(addNumber(3,4));
 
-
+//IIFE Concepts
 //Immediately Invoked Function Expression Eg - DB Connection,To stop global variables pollution we use
 
 (function chai (){
