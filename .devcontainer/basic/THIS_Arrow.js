@@ -17,7 +17,8 @@ console.log(this); //Here the output will be empty object because the current co
 
 function One (){
     const username1 = "Aman";
-    console.log(this.username1); //this will give undefined as the "this" keyword works inside objects only
+    console.log(this.username1); 
+    //this will give undefined as the "this" keyword works inside objects only
 }
 
 One();
