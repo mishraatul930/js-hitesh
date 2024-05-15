@@ -16,3 +16,8 @@ if(Object.keys(emptyobject).length === 0){
 let val1;
 val1 = null ?? 10;
 console.log(val1);
+
+//Ternary Operator
+
+let iceCreamPrice = 100;
+iceCreamPrice <= 80 ? console.log("Price is less than 80") : console.log("Price is greater than 80");
